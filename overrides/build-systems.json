@@ -276,6 +276,12 @@
   "cysignals": [
     "cython"
   ],
+  "cysimdjson": [
+    "cython"
+  ],
+  "darglint": [
+    "poetry"
+  ],
   "datadog": [
     "hatchling"
   ],
@@ -314,6 +320,9 @@
   ],
   "docstring-parser": [
     "poetry-core"
+  ],
+  "dotty-dict": [
+    { "buildSystem": "poetry-core", "from": "1.3.1" }
   ],
   "dtlssocket": [
     "cython"
@@ -474,6 +483,9 @@
   "gridnet": [
     "poetry-core"
   ],
+  "griffe": [
+    "pdm-pep517"
+  ],
   "grpcio": [
     "cython"
   ],
@@ -602,7 +614,8 @@
   ],
   "jsonschema": [
     { "buildSystem": "hatchling", "from": "4.6.0" },
-    { "buildSystem": "hatch-vcs", "from": "4.6.0" }
+    { "buildSystem": "hatch-vcs", "from": "4.6.0" },
+    { "buildSystem": "hatch-fancy-pypi-readme", "from": "4.11.0" }
   ],
   "jupyter-client": [
     "hatchling"
@@ -613,14 +626,23 @@
   "jupyter-server": [
     "jupyter-packaging"
   ],
+  "jupyter-server-mathjax": [
+    "jupyter-packaging"
+  ],
   "jupyterlab": [
     "jupyter-packaging"
   ],
   "jupyterlab-code-formatter": [
     "jupyter-packaging"
   ],
+  "jupyterlab-git": [
+    "jupyter-packaging"
+  ],
   "jupyterlab-pygments": [
     "jupyter-packaging"
+  ],
+  "jupyterlab-server": [
+    "hatchling"
   ],
   "keystoneauth1": [
     "pbr"
@@ -726,6 +748,9 @@
     "poetry"
   ],
   "metprint": [
+    "poetry-core"
+  ],
+  "minimal-dydb": [
     "poetry-core"
   ],
   "mkdocs-autorefs": [
@@ -950,6 +975,9 @@
   "pkgconfig": [
     "poetry-core"
   ],
+  "pkgutil-resolve-name": [
+    "flit-core"
+  ],
   "plux": [
     "pytest-runner"
   ],
@@ -958,6 +986,9 @@
   ],
   "poetry-dynamic-versioning": [
     "poetry-core"
+  ],
+  "poetry-plugin-export": [
+    "poetry"
   ],
   "poetry2conda": [
     "poetry"
@@ -1045,6 +1076,9 @@
   ],
   "pydantic": [
     "cython"
+  ],
+  "pydantic-dydb": [
+    "poetry-core"
   ],
   "pydy": [
     "cython"
@@ -1740,6 +1774,9 @@
     "flit-core"
   ],
   "typical": [
+    "poetry-core"
+  ],
+  "types-s3transfer": [
     "poetry-core"
   ],
   "typing-extensions": [
